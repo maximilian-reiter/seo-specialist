@@ -1,0 +1,111 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  text-align: center;
+  line-height: 2;
+  background-color: #f5eaea;
+  font-size: 18px;
+}
+
+h1 {
+  color: #7fcd91;
+  font-size: 3rem;
+  margin-top: 50px auto 0 auto;
+  font-family: "Lucida Sans Typewriter", "Courier", monospace;
+}
+
+h2 {
+  font-family: "Lucida Sans Typewriter", "Courier", monospace;
+  font-size: 1.5rem;
+  color: #7fcd91;
+}
+
+h3 {
+  font-family: "Lucida Sans Typewriter", "Courier", monospace;
+  color: #7fcd91;
+  margin: 10px auto 10px auto;
+  font-size: 18px;
+}
+
+a {
+  color: #7fcd91;
+}
+
+hr {
+  border-style: none;
+      border-top-style: dotted;
+      border-color: #4d4646;
+      border-width: 5px;
+      width: 5%;
+      margin: 80px auto 80px auto;
+}
+
+.image-seo {
+ height: 150px;
+ float: left;
+ margin-right: 20px;
+}
+
+.image-user-interface {
+  height: 171px;
+  float: right;
+  margin-right: 20px;
+}
+
+
+.subtitel {
+  font-weight: normal;
+}
+
+.top-container {
+  background-color: #5b5656;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {}
+
+.bottom-container {
+  background-color: #5b5656;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  top: 200px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 40px auto 40px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.footer-link {
+
+}
+
+.btn {
+  background-color: #7fcd91;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#profile {
+  margin-top: 40px;
+}
