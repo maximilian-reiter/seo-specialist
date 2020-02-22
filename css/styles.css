@@ -42,6 +42,7 @@ color: #baf1a1;
 
 .btn:hover {
   background-color: #fdd365;
+  color: white;
 }
 
 hr {
