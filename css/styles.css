@@ -2,9 +2,9 @@ body {
   font-family: "Courier New", Courier, monospace;
   margin: 0;
   text-align: center;
-  line-height: 2;
   background-color: #f5eaea;
   font-size: 18px;
+  color: #40514E;
 }
 
 h1 {
@@ -24,26 +24,39 @@ h3 {
   font-family: "Lucida Sans Typewriter", "Courier", monospace;
   color: #7fcd91;
   margin: 10px auto 10px auto;
-  font-size: 18px;
+  font-size: 19px;
+}
+
+p {
+  line-height: 2;
 }
 
 a {
   color: #7fcd91;
+  text-decoration: none;
+}
+
+a:hover {
+color: #baf1a1;
+}
+
+.btn:hover {
+  background-color: #fdd365;
 }
 
 hr {
   border-style: none;
-      border-top-style: dotted;
-      border-color: #4d4646;
-      border-width: 5px;
-      width: 5%;
-      margin: 80px auto 80px auto;
+  border-top-style: dotted;
+  border-color: #4d4646;
+  border-width: 5px;
+  width: 5%;
+  margin: 80px auto 80px auto;
 }
 
 .image-seo {
- height: 150px;
- float: left;
- margin-right: 20px;
+  height: 150px;
+  float: left;
+  margin-right: 20px;
 }
 
 .image-user-interface {
@@ -51,7 +64,6 @@ hr {
   float: right;
   margin-right: 20px;
 }
-
 
 .subtitel {
   font-weight: normal;
@@ -67,8 +79,9 @@ hr {
 
 .bottom-container {
   background-color: #5b5656;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .top-cloud {
@@ -90,22 +103,30 @@ hr {
   line-height: 2;
 }
 
-.footer-link {
-
-}
+.footer-link {}
 
 .btn {
-  background-color: #7fcd91;
-  border: none;
+  background-color: #f39422;
   color: white;
+  font-size: 18px;
   font-weight: bolder;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  border-radius: 17px;
 }
 
 #profile {
-  margin-top: 40px;
+  padding-top: 40px;
+}
+
+.profile {
+  display: inline-block;
+  width: 50%;
+}
+
+.contact-me {
+  display: inline-block;
+  width: 50%;
 }
