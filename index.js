@@ -1,1 +1,1 @@
-document.querySelector(".subtitle").innerHTML = "Ein SEO Specialist";
+document.querySelector(".subtitel").innerHTML = "Ein SEO Specialist";
